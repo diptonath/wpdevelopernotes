@@ -1,3 +1,5 @@
+### [Home Page](README.md)
+
 **How do I display featured image in inline style markup?**
 
 ```markdown
