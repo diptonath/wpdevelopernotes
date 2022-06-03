@@ -1,5 +1,9 @@
 ### Wordpress Developer Notes
 
+### All Pages
+
+[About Me](SimpleTricks.md)
+
 ### Theme Bootstrapping
 
 #### Basic Template Files
