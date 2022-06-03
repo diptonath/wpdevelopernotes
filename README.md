@@ -2,7 +2,7 @@
 
 ### All Pages
 
-[About Me](SimpleTricks.md)
+[Simple Tricks](SimpleTricks.md)
 
 ### Theme Bootstrapping
 
