@@ -1,9 +1,5 @@
 ### Wordpress Developer Notes
 
-layout: page
-title: "Widgets"
-permalink: /widgets/
-
 ### Theme Bootstrapping
 
 #### Basic Template Files
