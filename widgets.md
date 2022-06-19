@@ -1,6 +1,6 @@
 ### [Home Page](README.md)
 
-### Widgets Registered
+## Widgets Registered
 
 For example, used with registering sidebars:
 
