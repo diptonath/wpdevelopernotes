@@ -79,6 +79,34 @@ Display posts that are in the **quotes category** OR have the **quote post tag**
 
 ```
 
+Display posts that are in True on True/False Field
 
+```markdown
+
+<?php
+    $args = array( 
+        'post_type'  => 'post',
+        'posts_per_page' => 5,
+        'meta_query' => array(
+            array(
+              'key' => 'is_slider',
+              'value' => '1',
+            )
+        )
+
+    );
+
+    $query = new WP_Query($args);
+
+    while($query->have_posts()){
+        $query->the_post();
+        ?>
+            <h4 class="text-center"><?php the_title(); ?></h4>
+        <?php
+    }
+    wp_reset_query();
+?>
+
+```
 
 
