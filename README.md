@@ -65,6 +65,7 @@ add_action("after_setup_theme", "textdomain_theme_setup");
 
 function textdomain_theme_enqueue_scripts(){
     // Enqueue my styles.
+    wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700',array(), null );
     wp_enqueue_style('main-css', get_template_directory_uri().'/assets/css/main.css',null,'1.0');
     wp_enqueue_style( 'philosophy-css', get_stylesheet_uri() );
      
