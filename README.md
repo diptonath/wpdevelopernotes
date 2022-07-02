@@ -2,7 +2,7 @@
 
 ### All Pages
 
-[Simple Tricks](SimpleTricks.md) | [Widgets](widgets.md) | [Custom Query](Custom_Query.md)
+[Simple Tricks](SimpleTricks.md) | [Widgets](widgets.md) | [Custom Query](Custom_Query.md) | [Custom Post](CustomPost.md)
 
 ### Theme Bootstrapping
 
