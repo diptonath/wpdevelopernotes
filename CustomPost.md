@@ -10,8 +10,8 @@ function clarencetaylor_link_fix($post_link, $id){
     if($parent_post){
       $post_link = str_replace("%book%", $parent_post->post_name,$post_link);
     }
-    return $post_link;
   }
+  return $post_link;
 }
 add_filter('post_type_link', 'clarencetaylor_link_fix',1,2 );
 
